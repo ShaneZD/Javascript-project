@@ -2,7 +2,6 @@
 This is a web project for UCD PA. 
 I created this site as a tribute to Fromsoftware games from Tokyo Japan.
 
-FromSoftware Games Fan Site
 Welcome to the GitHub repository of my FromSoftware Games Fan Site! This project is a tribute to the legendary game development company, FromSoftware, known for its challenging and immersive game titles like Dark Souls, Bloodborne, Sekiro: Shadows Die Twice, and Elden Ring. my half functioning website offers quizzes, character creation features, difficulty settings, and a moving gallery to engage fans and celebrate the rich history of FromSoftware games.
 
 Project Overview
