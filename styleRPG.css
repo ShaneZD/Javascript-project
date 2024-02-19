@@ -1,0 +1,288 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #121212;
+  color: #f0c674;
+}
+body {
+  background-image: url("eldenring.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #202020;
+}
+h1 {
+  font-size: 4em;
+}
+
+header {
+  background-color: #202020;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+}
+
+nav#navbar li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav#navbar a {
+  color: #cfcfcf;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  nav#navbar ul {
+    padding: 0;
+  }
+
+  nav#navbar li {
+    display: block; 
+    margin: 10px auto; 
+  }
+}
+
+nav#navbar a:hover {
+  color: #f0c674;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+  background-color: #202020;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+  }
+}
+
+.gallery-container {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  border: 4px solid #987654;
+  box-shadow: 0 0 10px #555;
+}
+
+.gallery {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.gallery img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+button {
+  background-color: #202020;
+  color: #f0c674;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0c674;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .gallery-container,
+  .gallery img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container,
+  .gallery img {
+    width: 100vw;
+    height: 100vw;
+  }
+}
+#elden-ring-text1 {
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  border: 4px solid #987654;
+  box-shadow: 0 0 10px #555;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+  background-image: url("ds2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  font-weight: bold;
+}
+
+#elden-ring-text3 {
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  border: 4px solid #987654;
+  box-shadow: 0 0 10px #555;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+  background-image: url("ranni.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  font-weight: bold;
+}
+#elden-ring-text4 {
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  border: 4px solid #987654;
+  box-shadow: 0 0 10px #555;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+  background-image: url("radagon.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  font-weight: bolder;
+}
+
+#elden-ring-text5 {
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  border: 4px solid #987654;
+  box-shadow: 0 0 10px #555;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+  background-image: url("sekiro2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  font-weight: bolder;
+}
+#elden-ring-text6 {
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  border: 4px solid #987654;
+  box-shadow: 0 0 10px #555;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+  background-image: url("theeldenring.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  font-weight: bolder;
+}
+footer {
+  background-color: #181818;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quizContainer {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 4px solid #987654;
+  box-shadow: 0 0 10px #555;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  background-image: url("quiz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.timeline-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.timeline {
+  border-left: 4px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 20px 0 20px 20px;
+  margin-left: 20px;
+}
+
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  left: -17.5px;
+  background-color: #fff;
+  border: 3px solid #f0c674;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  top: 15px;
+}
+
+.timeline-content {
+  background-color: #202020;
+  padding: 15px;
+  border: 2px solid #f0c674;
+  border-radius: 4px;
+}

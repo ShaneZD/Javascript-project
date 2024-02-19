@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FromSoftware RPGs</title>
+  <link rel="stylesheet" href="styleRPG.css">
+</head>
+
+<body>
+  <header class="container">
+    <h1>FromSoftware Games</h1>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="Games.html">Games</a></li>
+      </ul>
+    </nav>
+    <br>
+    <br>
+    <form id="characterForm">
+      <label for="characterClass">Choose a class:</label>
+      <select id="characterClass" name="characterClass">
+        <option value="">Select a Class</option>
+        <option value="Knight">Knight</option>
+        <option value="Sorcerer">Sorcerer</option>
+        <option value="UCD Lecturer">UCD Lecturer</option>
+      </select>
+      <br>
+      <label for="characterName">Character Name:</label>
+      <input type="text" id="characterName" name="characterName" pattern="[A-Za-z0-9]+" title="Name must contain letters and numbers only, no special characters.">
+      <br>
+      <button type="submit">Create Character</button>
+    </form>
+    <div id="characterCreationMessage"></div>
+    <label for="difficultySlider">Difficulty Level:</label>
+    <input type="range" id="difficultySlider" name="difficulty" min="1" max="10">
+    <div id="difficultyDisplay">Difficulty: 5</div>
+    <div id="classDescription">Select a class to see its description.</div>
+  </header>
+  <main class="container">
+    <div class="row">
+      <div class="col-6">
+        <h2>Introduction</h2>
+        <p id="elden-ring-text1">
+
+          As a dedicated fan and admirer of FromSoftware, I've embarked on a journey to pay homage to a company that has
+          redefined the essence of video gaming for enthusiasts around the globe. Founded in 1986 in Tokyo, Japan,
+          FromSoftware has grown from a modest game development studio into a beacon of innovation and excellence in the
+          gaming industry. This tribute seeks to celebrate their illustrious history, their groundbreaking games, the
+          brilliant minds behind these creations, and the indelible mark they've left on the world of gaming.
+          Their Legacy of Difficulty and Immersion
+          FromSoftware is synonymous with the creation of games that demand precision, patience, and resilience. Their
+          titles are designed not just to challenge players but to offer them a profound sense of accomplishment.
+          Through intricate world-building, deep lore, and unforgiving difficulty, they've cultivated a unique niche
+          that
+          attracts both hardcore and casual gamers alike.
+
+          Embrace the Challenge
+          At FromSoftware, they believe in creating experiences that leave a lasting impact. Their games are not just
+          about
+          overcoming obstacles; they're about the journey, the stories, and the memories formed along the way. Whether
+          you're navigating the perilous lands of Dark Souls, uncovering the mysteries of Bloodborne, mastering the
+          blade in Sekiro, or exploring the vastness of Elden Ring, you're in for an experience that will test your
+          limits and reward your perseverance.
+          <br>
+          Welcome to a world where every victory is earned, and every defeat is a lesson.
+        </p>
+      </div>
+      <div>
+        <div class="col-6">
+          <h2>Images</h2>
+          <div class="gallery-container">
+            <div class="gallery">
+              <img src="eldenring1.webp" alt="darksouls3">
+              <img src="bb.jpeg" alt="BloodBorne">
+              <img src="sekiro.jpeg" alt="Sekiro">
+            </div>
+          </div>
+          <button type="submit" id="prevButton">Previous</button>
+          <button type="submit" id="nextButton">Next</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <h2>Games</h2>
+        <p id="elden-ring-text3">
+          The Pillars of FromSoftware's Success
+          Dark Souls Series: The successor to Demon's Souls, Dark Souls took the gaming world by storm with its
+          punishing difficulty, intricate world design, and deep, underlying lore. It wasn't just a game; it became a
+          phenomenon that challenged players to persevere through adversity. Dark Souls and its sequels have become a
+          benchmark for what is often referred to as the "Soulsborne" genre, influencing countless other games and
+          developers.
+          <br>
+          Bloodborne: This title transported players to the hauntingly beautiful and nightmarish world of Yharnam.
+          Bloodborne was praised for its aggressive combat system, atmospheric depth, and complex storytelling. It
+          stands as a masterpiece that encapsulates the essence of fear and triumph.
+          <br>
+          Sekiro: Shadows Die Twice: With Sekiro, FromSoftware took a bold step in a new direction, incorporating
+          stealth elements, a grappling hook, and a posture-based combat system that demanded precision and skill. It's
+          a tale of revenge that blends historical Japan with mythical elements, offering a fresh experience while
+          maintaining the core challenge that fans adore.
+          <br>
+          Elden Ring: A colossal leap forward, Elden Ring expanded the FromSoftware formula into an open world filled
+          with mysteries, monumental battles, and an intricate narrative crafted in collaboration with George R.R.
+          Martin. It's a testament to FromSoftware's ability to evolve and push the boundaries of the genre.
+          <br><a href="Games.html">more information on games here</a>
+
+      </div>
+      <div class="col-6">
+        <h2>A Community Forged in Fire</h2>
+        <p id="elden-ring-text4">
+          A Community Forged in Fire
+          Perhaps one of the most remarkable aspects of FromSoftware's legacy is the vibrant community that has formed
+          around its games. Forums, wikis, fan art, and countless YouTube channels are dedicated to unraveling the
+          mysteries of their games, sharing strategies, and celebrating victories.<br>This community embodies the spirit
+          of
+          collaboration and perseverance that FromSoftware's games espouse.
+          <br>
+          <br>
+          In Conclusion,
+          FromSoftware has not just created games; they've crafted experiences that challenge, inspire, and ultimately,
+          transform us. As fans, we don't just play; we engage in a dialogue with the game, with each other, and with
+          ourselves about what it means to struggle, to fail, and to overcome. This tribute is but a small reflection of
+          the profound impact FromSoftware has had on our lives, and it's a testament to the enduring legacy of a
+          company that dared to challenge the status quo of gaming. Here's to many more years of exploring, fighting,
+          dying, and triumphing in the beautifully brutal worlds of FromSoftware.
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2024 FromSoft Fan Site. All rights reserved. V.1.0</p>
+  </footer>
+  <script src="script1.js"></script>
+</body>
+
+</html>
